@@ -1,0 +1,91 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    gap: 10px;
+    background-color: rgb(250, 126, 126);
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item2 a {
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    display: block;
+    background-color: blue;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+
+.item3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(160, 56, 30);
+}
+
+h6 {
+    text-align: left;
+    font-size: 14px;
+    padding: 20px;
+    font-family: arial;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 98, 98);
+}
+
+img {
+    border: 1px solid pink;
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 20px;
+}
+
+address {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 83, 14)
+}
+
+.grid-container-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item-g {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
